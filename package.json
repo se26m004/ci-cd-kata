@@ -1,7 +1,12 @@
 {
- "name": "ci-cd-kata",
- "version": "1.0.0",
- "scripts": {
- "test": "node test.js"
- }
+  "name": "ci-cd-kata",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node test.js",
+    "build": "mkdir -p dist && cp app.js package.json dist/"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
 }
