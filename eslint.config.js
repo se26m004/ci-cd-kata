@@ -15,7 +15,7 @@ module.exports = [
     rules: {
       'no-undef': 'error',
       'no-unused-vars': 'error',
-      indent: ['error', 2],
+      indent: ['error', 1],
       quotes: ['error', 'single'],
       semi: ['error', 'always'],
       'eol-last': ['error', 'always'],
